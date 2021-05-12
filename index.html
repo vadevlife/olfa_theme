@@ -38,8 +38,8 @@
                               Produtos
                               </a>
                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><a class="dropdown-item text-white" href="#">Linha Home</a></li>
-                                 <li><a class="dropdown-item text-white" href="#">Linha Business</a></li>
+                                 <li><a class="dropdown-item text-white" href="categorias.html">Linha Home</a></li>
+                                 <li><a class="dropdown-item text-white" href="categorias.html">Linha Business</a></li>
                               </ul>
                            </li>
                            <li class="nav-item  text-uppercase">
@@ -55,9 +55,17 @@
                      </div>
                   </div>
                   <div class="icones text-white d-flex     justify-content-around align-items-center">
-                     <i class="fas fa-search d-block"></i>
-                     <i class="far fa-user"></i>
-                     <i class="fas fa-shopping-cart"></i>
+                     <a href="#" class="text-white">
+                        <i class="fas fa-search d-block"></i>
+                     </a>
+                     <a href="#" class="text-white">
+                        <i class="fas fa-shopping-cart"></i>
+
+                     </a>
+                     <a href="#" class="text-white">
+                        <i class="far fa-user"></i>
+                     </a>
+                  
                      <span class="badge bg-danger rounded-pill">1</span>
                   </div>
                </div>
@@ -68,9 +76,9 @@
       <main>
          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               <button type="button rounded-pill" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button rounded-pill" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button rounded-pill" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                <div class="carousel-item active"> 
@@ -92,24 +100,25 @@
 
             <!-- HALF BANNER -->
 
-            <div class="swiper-container half-banner">
-               <div class="swiper-wrapper justify-content-center">
-                 <div class="swiper-slide">
-                  <img src="assets/img/half_banner1.png" class="rounded" alt="...">
+            <div class="swiper-container central-banner">
+               <div class="swiper-wrapper justify-content-between ">
+                 <div class="swiper-slide bg-transparent ">
+                  <img src="assets/img/half_banner1.png" class=" img-fluid w-100 m-0" alt="...">
 
                  </div>
-                 <div class="swiper-slide">
-                  <img src="assets/img/half_banner2.png" class="rounded" alt="...">
+                 <div class="swiper-slide bg-transparent ">
+                  <img src="assets/img/half_banner2.png" class=" img-fluid w-100 m-0" alt="...">
 
                  </div>
-                 <div class="swiper-slide">
-                  <img src="assets/img/half_banner3.png" class="rounded" alt="...">
+                 <div class="swiper-slide bg-transparent ">
+                  <img src="assets/img/half_banner3.png" class=" img-fluid w-100 m-0" alt="...">
 
                  </div>
                 
                   
                </div>
                <div class="swiper-pagination"></div>
+
              </div>
 
             
@@ -117,59 +126,59 @@
        
          
             <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
+            <style>
+               html,
+               body {
+               position: relative;
+               height: 100%;
+               }
 
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
+               body {
+               background: #eee;
+               font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+               font-size: 14px;
+               color: #000;
+               margin: 0;
+               padding: 0;
+               }
 
-      .swiper-container {
-        width: 100%;
-        height: 100%;
-      }
+               .swiper-container {
+               width: 100%;
+               height: 100%;
+               }
 
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
+               .swiper-slide {
+               text-align: center;
+               font-size: 18px;
+               background: #fff;
 
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
+               /* Center slide text vertically */
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: -webkit-flex;
+               display: flex;
+               -webkit-box-pack: center;
+               -ms-flex-pack: center;
+               -webkit-justify-content: center;
+               justify-content: center;
+               -webkit-box-align: center;
+               -ms-flex-align: center;
+               -webkit-align-items: center;
+               align-items: center;
+               }
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
+               .swiper-slide img {
+               display: block;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               }
+            </style>
 
-            <div class="products pt-1 pb-5">
-
+            <!-- PRODUTOS PROMOÇÃO -->
+            <div class="products pt-1 pb-5"> 
                <div class="row">
-                  <div class="col-12">
+                  <div class="col-12 title-page">
                      <h2 class="display-6 fs-2 text-center text-danger text-uppercase mt-3 mb-4">Promoções</h2>
                   </div> 
                </div>
@@ -178,226 +187,233 @@
                   <div class="swiper-container mySwiper">
                      <div class="swiper-wrapper">
                        <div class="swiper-slide">
-                        <div class="card text-center border-0">
-                           <img src="assets/img/combo-1.png" class="img-fluid " alt="">
-                              <div class="mt-3 mb-3 tex">
-                                 <div class="flag fw-bold">
-                                    <strong class="text-danger">10%</strong>
-                                    <span class="text-muted">| Frete Grátis</span>
-                                 </div>
-                                 <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2">Água Perfumada 950ml</h2>
-                                 <div class="preco">
-                                    <div class="old-price text-muted">
-                                       R$ 225,90
+                        <a href="detalhes_produtos.html">
+                           <div class="card product text-center border-0 ">
+                              <img src="assets/img/prod-small.png" class="img-fluid  p-4" alt="">
+                                 <div class="mt-3 mb-3 tex p-md-3">
+                                    <div class="flag fw-bold text-md-start">
+                                       <strong class="text-danger">10%</strong>
+                                       <span class="text-muted">| Frete Grátis</span>
                                     </div>
-                                    <div class="promo-price price fw-bold h3">
-                                       R$ 225,90
-                                    </div>
-                                 </div>
-                                 <div class="bg-light">
-                                    <div class="this-subscribers d-flex align-items-center pt-1 fw-bold ">
-                                       <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
-                                       <div class="promo-price text-danger   fs-6 p-1">
-                                          R$ 159,90
+                                    <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                    
+                                    <div class="row align-items-center p-md-3">
+                                       <div class="col-md-6 p-0">
+                                          <div class="preco text-md-start">
+                                             <div class="old-price text-muted">
+                                                R$ 225,90
+                                             </div>
+                                             <div class="promo-price price fw-bold h3">
+                                                R$ 225,90
+                                             </div>
+                                          </div>
+                                       
+                                       </div>
+      
+                                       <div class="col-md-6 p-0">
+                                          <div class="bg-light">
+                                             <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                <div class="promo-price text-danger fs-6 p-1">
+                                                   R$ 159,90
+                                                </div>
+                                             </div>
+                                          </div>
                                        </div>
                                     </div>
-                                 </div>
-                                 <div class="card-body">
-                                    <div class="prod-info">
-                                       <span class="boleto text-muted">4x R$ 47,76 sem juros
-                                       Ou R$ 181,49 á vista no boleto
-                                       </span>
-                                    </div>
-                                    <div class="qtd mt-2 mb-1 d-block d-md-none">
-                                       <div class="text-center d-flex justify-content-center align-items-center">
-                                          <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
-                                          <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
-                                          <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                    <div class="card-body p-0">
+                                       <div class="prod-info text-md-start">
+                                          <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                          Ou R$ 181,49 á vista no boleto
+                                          </span>
                                        </div>
+                                       <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                          <div class="text-center d-flex justify-content-center align-items-center">
+                                             <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                             <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                             <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                          </div>
+                                       </div>
+                                       <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
                                     </div>
-                                    <button type="button" class="btn w-100 btn-danger text-center rounded-pill text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-2 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
                                  </div>
-                              </div>
                            </div>
+                        </a>
                        </div>
+                       <div class="swiper-slide">
+                        <a href="detalhes_produtos.html">
+                           <div class="card product text-center border-0">
+                              <img src="assets/img/prod-small.png" class="img-fluid  p-4" alt="">
+                                 <div class="mt-3 mb-3 tex p-md-3">
+                                    <div class="flag fw-bold text-md-start">
+                                       <strong class="text-danger">10%</strong>
+                                       <span class="text-muted">| Frete Grátis</span>
+                                    </div>
+                                    <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                    
+                                    <div class="row align-items-center p-md-3">
+                                       <div class="col-md-6 p-0">
+                                          <div class="preco text-md-start">
+                                             <div class="old-price text-muted">
+                                                R$ 225,90
+                                             </div>
+                                             <div class="promo-price price fw-bold h3">
+                                                R$ 225,90
+                                             </div>
+                                          </div>
+                                       
+                                       </div>
+      
+                                       <div class="col-md-6 p-0">
+                                          <div class="bg-light">
+                                             <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                <div class="promo-price text-danger fs-6 p-1">
+                                                   R$ 159,90
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                       <div class="prod-info text-md-start">
+                                          <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                          Ou R$ 181,49 á vista no boleto
+                                          </span>
+                                       </div>
+                                       <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                          <div class="text-center d-flex justify-content-center align-items-center">
+                                             <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                             <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                             <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                          </div>
+                                       </div>
+                                       <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                    </div>
+                                 </div>
+                           </div>
+                        </a>
+                       </div>
+                       <div class="swiper-slide">
+                        <a href="detalhes_produtos.html">
+                           <div class="card product text-center border-0">
+                              <img src="assets/img/prod-small2.png" class="img-fluid  p-4" alt="">
+                                 <div class="mt-3 mb-3 tex p-md-3">
+                                    <div class="flag fw-bold text-md-start">
+                                       <strong class="text-danger">10%</strong>
+                                       <span class="text-muted">| Frete Grátis</span>
+                                    </div>
+                                    <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                    
+                                    <div class="row align-items-center p-md-3">
+                                       <div class="col-md-6 p-0">
+                                          <div class="preco text-md-start">
+                                             <div class="old-price text-muted">
+                                                R$ 225,90
+                                             </div>
+                                             <div class="promo-price price fw-bold h3">
+                                                R$ 225,90
+                                             </div>
+                                          </div>
+                                       
+                                       </div>
+      
+                                       <div class="col-md-6 p-0">
+                                          <div class="bg-light">
+                                             <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                <div class="promo-price text-danger fs-6 p-1">
+                                                   R$ 159,90
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                       <div class="prod-info text-md-start">
+                                          <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                          Ou R$ 181,49 á vista no boleto
+                                          </span>
+                                       </div>
+                                       <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                          <div class="text-center d-flex justify-content-center align-items-center">
+                                             <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                             <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                             <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                          </div>
+                                       </div>
+                                       <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                    </div>
+                                 </div>
+                           </div>
+                        </a>
+                       </div>
+                       <div class="swiper-slide">
+                        <a href="detalhes_produtos.html">
+                           <div class="card product text-center border-0">
+                              <img src="assets/img/prod-4.png" class="img-fluid  p-4" alt="">
+                                 <div class="mt-3 mb-3 tex p-md-3">
+                                    <div class="flag fw-bold text-md-start">
+                                       <strong class="text-danger">10%</strong>
+                                       <span class="text-muted">| Frete Grátis</span>
+                                    </div>
+                                    <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                    
+                                    <div class="row align-items-center p-md-3">
+                                       <div class="col-md-6 p-0">
+                                          <div class="preco text-md-start">
+                                             <div class="old-price text-muted">
+                                                R$ 225,90
+                                             </div>
+                                             <div class="promo-price price fw-bold h3">
+                                                R$ 225,90
+                                             </div>
+                                          </div>
+                                       
+                                       </div>
+      
+                                       <div class="col-md-6 p-0">
+                                          <div class="bg-light">
+                                             <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                <div class="promo-price text-danger fs-6 p-1">
+                                                   R$ 159,90
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                       <div class="prod-info text-md-start">
+                                          <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                          Ou R$ 181,49 á vista no boleto
+                                          </span>
+                                       </div>
+                                       <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                          <div class="text-center d-flex justify-content-center align-items-center">
+                                             <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                             <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                             <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                          </div>
+                                       </div>
+                                       <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                    </div>
+                                 </div>
+                           </div>
+                        </a>
+                       </div>
+  
 
-                       <div class="swiper-slide">
-                        <div class="card text-center border-0">
-                           <img src="assets/img/combo-1.png" class="img-fluid " alt="">
-                              <div class="mt-3 mb-3 tex">
-                                 <div class="flag fw-bold">
-                                    <strong class="text-danger">10%</strong>
-                                    <span class="text-muted">| Frete Grátis</span>
-                                 </div>
-                                 <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2">Água Perfumada 950ml</h2>
-                                 <div class="preco">
-                                    <div class="old-price text-muted">
-                                       R$ 225,90
-                                    </div>
-                                    <div class="promo-price price fw-bold h3">
-                                       R$ 225,90
-                                    </div>
-                                 </div>
-                                 <div class="bg-light">
-                                    <div class="this-subscribers d-flex align-items-center pt-1 fw-bold ">
-                                       <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
-                                       <div class="promo-price text-danger   fs-6 p-1">
-                                          R$ 159,90
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="card-body">
-                                    <div class="prod-info">
-                                       <span class="boleto text-muted">4x R$ 47,76 sem juros
-                                       Ou R$ 181,49 á vista no boleto
-                                       </span>
-                                    </div>
-                                    <div class="qtd mt-2 mb-1 d-block d-md-none">
-                                       <div class="text-center d-flex justify-content-center align-items-center">
-                                          <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
-                                          <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
-                                          <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
-                                       </div>
-                                    </div>
-                                    <button type="button" class="btn w-100 btn-danger text-center rounded-pill text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-2 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
-                                 </div>
-                              </div>
-                           </div>
-                       </div>
-
-                       <div class="swiper-slide">
-                        <div class="card text-center border-0">
-                           <img src="assets/img/combo-1.png" class="img-fluid " alt="">
-                              <div class="mt-3 mb-3 tex">
-                                 <div class="flag fw-bold">
-                                    <strong class="text-danger">10%</strong>
-                                    <span class="text-muted">| Frete Grátis</span>
-                                 </div>
-                                 <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2">Água Perfumada 950ml</h2>
-                                 <div class="preco">
-                                    <div class="old-price text-muted">
-                                       R$ 225,90
-                                    </div>
-                                    <div class="promo-price price fw-bold h3">
-                                       R$ 225,90
-                                    </div>
-                                 </div>
-                                 <div class="bg-light">
-                                    <div class="this-subscribers d-flex align-items-center pt-1 fw-bold ">
-                                       <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
-                                       <div class="promo-price text-danger   fs-6 p-1">
-                                          R$ 159,90
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="card-body">
-                                    <div class="prod-info">
-                                       <span class="boleto text-muted">4x R$ 47,76 sem juros
-                                       Ou R$ 181,49 á vista no boleto
-                                       </span>
-                                    </div>
-                                    <div class="qtd mt-2 mb-1 d-block d-md-none">
-                                       <div class="text-center d-flex justify-content-center align-items-center">
-                                          <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
-                                          <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
-                                          <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
-                                       </div>
-                                    </div>
-                                    <button type="button" class="btn w-100 btn-danger text-center rounded-pill text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-2 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
-                                 </div>
-                              </div>
-                           </div>
-                       </div>
-
-                       <div class="swiper-slide">
-                        <div class="card text-center border-0">
-                           <img src="assets/img/combo-1.png" class="img-fluid " alt="">
-                              <div class="mt-3 mb-3 tex">
-                                 <div class="flag fw-bold">
-                                    <strong class="text-danger">10%</strong>
-                                    <span class="text-muted">| Frete Grátis</span>
-                                 </div>
-                                 <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2">Água Perfumada 950ml</h2>
-                                 <div class="preco">
-                                    <div class="old-price text-muted">
-                                       R$ 225,90
-                                    </div>
-                                    <div class="promo-price price fw-bold h3">
-                                       R$ 225,90
-                                    </div>
-                                 </div>
-                                 <div class="bg-light">
-                                    <div class="this-subscribers d-flex align-items-center pt-1 fw-bold ">
-                                       <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
-                                       <div class="promo-price text-danger   fs-6 p-1">
-                                          R$ 159,90
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="card-body">
-                                    <div class="prod-info">
-                                       <span class="boleto text-muted">4x R$ 47,76 sem juros
-                                       Ou R$ 181,49 á vista no boleto
-                                       </span>
-                                    </div>
-                                    <div class="qtd mt-2 mb-1 d-block d-md-none">
-                                       <div class="text-center d-flex justify-content-center align-items-center">
-                                          <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
-                                          <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
-                                          <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
-                                       </div>
-                                    </div>
-                                    <button type="button" class="btn w-100 btn-danger text-center rounded-pill text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-2 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
-                                 </div>
-                              </div>
-                           </div>
-                       </div>
-                       <div class="swiper-slide">
-                        <div class="card text-center border-0">
-                           <img src="assets/img/combo-1.png" class="img-fluid " alt="">
-                              <div class="mt-3 mb-3 tex">
-                                 <div class="flag fw-bold">
-                                    <strong class="text-danger">10%</strong>
-                                    <span class="text-muted">| Frete Grátis</span>
-                                 </div>
-                                 <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2">Água Perfumada 950ml</h2>
-                                 <div class="preco">
-                                    <div class="old-price text-muted">
-                                       R$ 225,90
-                                    </div>
-                                    <div class="promo-price price fw-bold h3">
-                                       R$ 225,90
-                                    </div>
-                                 </div>
-                                 <div class="bg-light">
-                                    <div class="this-subscribers d-flex align-items-center pt-1 fw-bold ">
-                                       <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
-                                       <div class="promo-price text-danger   fs-6 p-1">
-                                          R$ 159,90
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="card-body">
-                                    <div class="prod-info">
-                                       <span class="boleto text-muted">4x R$ 47,76 sem juros
-                                       Ou R$ 181,49 á vista no boleto
-                                       </span>
-                                    </div>
-                                    <div class="qtd mt-2 mb-1 d-block d-md-none">
-                                       <div class="text-center d-flex justify-content-center align-items-center">
-                                          <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
-                                          <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
-                                          <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
-                                       </div>
-                                    </div>
-                                    <button type="button" class="btn w-100 btn-danger text-center rounded-pill text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-2 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
-                                 </div>
-                              </div>
-                           </div>
-                       </div>
+                     
                   
                      </div>
                      <div class="swiper-pagination"></div>
+                     <!-- <div class="swiper-button-prev">
+                        <i class="fas fa-chevron-circle-left text-muted h1"></i>
+                     </div> -->
+                     <!-- <div class="swiper-button-next">
+                        <i class="fas fa-chevron-circle-right text-muted h1"></i>
+                     </div> -->
                    </div>
                </div>
 
@@ -408,13 +424,15 @@
               
             </div>
          </div>
+
+         
          <div class="bg-danger">
             <div class="assinantes pt-4 pb-5">
                <div class="container">
                   <!-- ASSINANTES -->
                   <div class="row">
-                     <div class="col-12 ">
-                        <h2 class="display-6 fs-2 text-center text-white text-uppercase mt-3 mb-4">Conheça nosso<br><strong class="text-white h2 fw-bold" >Clube de assinaturas</strong></h2>
+                     <div class="col-12">
+                        <h2 class=" title-page display-6 fs-2 text-center text-white text-uppercase mt-5 mb-4">Conheça nosso<br><strong class="title-page text-white h2 fw-bold" >Clube de assinaturas</strong></h2>
                      </div>
                      <div class="col-6 col-sm-3 pb-4">
                         <div class="text-white card border-0">
@@ -423,7 +441,7 @@
                               <i class="far fa-image display-5 text-danger"></i>
                            </div>
                            <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
+                              <h5 class="card-title fs-6 text-uppercase fw-bold">Benefício 01</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
                            </div>
                         </div>
@@ -436,7 +454,7 @@
                               <i class="far fa-image display-5 text-danger"></i>
                            </div>
                            <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
+                              <h5 class="card-title fs-6 text-uppercase fw-bold">Benefício 01</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
                            </div>
                         </div>
@@ -449,7 +467,7 @@
                               <i class="far fa-image display-5 text-danger"></i>
                            </div>
                            <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
+                              <h5 class="card-title fs-6 text-uppercase fw-bold">Benefício 01</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
                            </div>
                         </div>
@@ -462,7 +480,7 @@
                               <i class="far fa-image display-5 text-danger"></i>
                            </div>
                            <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
+                              <h5 class="card-title fs-6 text-uppercase fw-bold">Benefício 01</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
                            </div>
                         </div>
@@ -471,211 +489,546 @@
                   </div>
                   <div class="row">
                      <div class="col-12 text-center">
-                        <button type="button" class="btn w-50 bg-white text-danger text-center rounded-pill text-uppercase  justify-content-center pl-4 pr-4 mt-5">Sabia Mais</button>
+                        <button type="button" class="btn  bg-white text-danger text-center rounded-pill text-uppercase  justify-content-center mt-3 mb-4 m-auto">Sabia Mais</button>
                      </div>
                   </div>
 
 
-
-                  <div class="row">
-                     <div class="col-12">
-                        <h2 class="display-6 fs-2 text-center text-white text-uppercase mt-3 mb-4">Conheça nosso<br><strong class="text-white h2 fw-bold" >Clube de assinaturas</strong></h2>
-                     </div>
-                     <div class="col-6 col-sm-3">
-                        <div class="text-white card border-0">
-                           
-                           <div class="pt-4 pb-3 text-center">
-                              <img src="assets/img/promo-1.png" class="img-fluid rounded w-25" alt="">
-                           </div>
-                           <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
-                           </div>
+                  <div class="planos">
+                     <div class="row">
+                        <div class="col-12">
+                           <h2 class="display-6 fs-2 text-center text-white text-uppercase mt-5 mb-5">Planos</h2>
                         </div>
                      </div>
+                     <div class="row mt-4">
+                     
+                        <div class="col-6 col-sm-3">
+                           <div class="card text-white border-0">
+                              
+                              <div class="text-center p-0 ">
+                                 <img src="assets/img/promo-1.png" class="img-fluid rounded position-relative" alt="">
+                              </div>
+                              <div class="card-body text-center p-2">
+                                 <h5 class="card-title h2 text-uppercase fw-light">Slim</h5>
+                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of <b>the card's</b></p>
+                                 <span class="badge rounded-pill text-uppercase fw-light second-danger-color">Refil 350ml</span>
+                              </div>
+                              <div class="card-footer text-center border-0 pt-3 pb-3  second-danger-color">
+                                 <!-- #B91132 -->
+                                 <div class="preco d-flex position-relative">
+                                    <p>A partir do </p>
 
-                     <div class="col-6 col-sm-3">
-                        <div class="text-white card border-0">
-                           
-                           <div class="pt-4 pb-3 text-center">
-                              <img src="assets/img/promo-2.png" class="img-fluid rounded w-50" alt="">
-                           </div>
-                           <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
+                                    <div class="text-white fw-bold h3 preco-plano">
+                                       R$ 97,00
+                                    </div>
+                                    <p class="position-relative">/Mês</p>
+
+                                 </div>
+
+
+                                 <button type="button" class="btn bg-white text-danger text-center rounded-pill text-uppercase fw-bold m-auto justify-content-center pl-4 pr-4">
+                                    <i class="fas fa-shopping-cart text-danger"></i>&nbsp;
+                                    Asssine Agora
+                                 </button>
+                                 
+                              </div>
                            </div>
                         </div>
-                     </div>
+                        <div class="col-6 col-sm-3">
+                           <div class="card text-white border-0 position-relative ">
+                              
+                              <div class="text-center p-0">
+                                 <img src="assets/img/promo-2.png" class="img-fluid rounded position-relative" alt="">
+                              </div>
+                              <div class="card-body text-center p-2">
+                                 <h5 class="card-title h2 text-uppercase fw-light">Mist</h5>
+                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of <b>the card's</b></p>
+                                 <span class="badge rounded-pill text-uppercase fw-light second-danger-color">Refil 350ml</span>
+                              </div>
+                              <div class="card-footer text-center border-0 pt-3 pb-3 second-danger-color">
+                                 <!-- #B91132 -->
+                                 <div class="preco d-flex position-relative">
+                                    <p>A partir do </p>
 
-                     <div class="col-6 col-sm-3 pt-3">
-                        <div class="text-white card border-0">
-                           
-                           <div class="pt-4 pb-3 text-center">
-                              <img src="assets/img/promo-3.png" class="img-fluid rounded w-50" alt="">
-                           </div>
-                           <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
+                                    <div class="text-white fw-bold h3 preco-plano">
+                                       R$ 97,00
+                                    </div>
+                                    <p class="position-relative">/Mês</p>
+
+                                 </div>
+
+
+                                 <button type="button" class="btn bg-white text-danger text-center rounded-pill text-uppercase fw-bold m-auto justify-content-center pl-4 pr-4">
+                                    <i class="fas fa-shopping-cart text-danger"></i>&nbsp;
+                                    Asssine Agora
+                                 </button>
+                                 
+                              </div>
                            </div>
                         </div>
-                     </div>
+                        <div class="col-6 col-sm-3 mt-5 mt-md-0">
+                           <div class="card text-white border-0 position-relative">
+                              
+                              <div class="text-center p-0">
+                                 <img src="assets/img/promo-3.png" class="img-fluid rounded position-relative" alt="">
+                              </div>
+                              <div class="card-body text-center p-2">
+                                 <h5 class="card-title h2 text-uppercase fw-light">Plus</h5>
+                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of <b>the card's</b></p>
+                                 <span class="badge rounded-pill text-uppercase fw-light second-danger-color">Refil 350ml</span>
+                              </div>
+                              <div class="card-footer text-center border-0 pt-3 pb-3 second-danger-color">
+                                 <!-- #B91132 -->
+                                 <div class="preco d-flex position-relative">
+                                    <p>A partir do </p>
 
-                     <div class="col-6 col-sm-3 pt-3">
-                        <div class="text-white card border-0">
-                           
-                           <div class="pt-4 pb-3 text-center">
-                              <img src="assets/img/promo-4.png" class="img-fluid rounded w-50" alt="">
-                           </div>
-                           <div class="card-body text-center">
-                              <h5 class="card-title fs-6 text-uppercase">Benefício 01</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of the card's</p>
+                                    <div class="text-white fw-bold h3 preco-plano">
+                                       R$ 97,00
+                                    </div>
+                                    <p class="position-relative">/Mês</p>
+
+                                 </div>
+
+
+                                 <button type="button" class="btn bg-white text-danger text-center rounded-pill text-uppercase fw-bold m-auto justify-content-center pl-4 pr-4">
+                                    <i class="fas fa-shopping-cart text-danger"></i>&nbsp;
+                                    Asssine Agora
+                                 </button>
+                                 
+                              </div>
                            </div>
                         </div>
-                     </div>
-                   
+                        <div class="col-6 col-sm-3 mt-5 mt-md-0">
+                           <div class="card text-white border-0 position-relative ">
+                              
+                              <div class="text-center p-0">
+                                 <img src="assets/img/promo-4.png" class="img-fluid rounded  position-relative" alt="">
+                              </div>
+                              <div class="card-body text-center p-2">
+                                 <h5 class="card-title h2 text-uppercase fw-light">POC</h5>
+                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'  title and make up the bulk of <b>the card's</b></p>
+                                 <span class="badge rounded-pill text-uppercase fw-light second-danger-color">Refil 350ml</span>
+                              </div>
+                              <div class="card-footer text-center border-0 pt-3 pb-3 second-danger-color">
+                                 <!-- #B91132 -->
+                                 <div class="preco d-flex position-relative">
+                                    <p>A partir do </p>
 
+                                    <div class="text-white fw-bold h3 preco-plano">
+                                       R$ 97,00
+                                    </div>
+                                    <p class="position-relative">/Mês</p>
+
+                                 </div>
+
+
+                                 <button type="button" class="btn bg-white text-danger text-center rounded-pill text-uppercase fw-bold m-auto justify-content-center pl-4 pr-4">
+                                    <i class="fas fa-shopping-cart text-danger"></i>&nbsp;
+                                    Asssine Agora
+                                 </button>
+                                 
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="bg-white pt-0 pb-4">
+         
+         <!-- COMPRA PROGRAMADA -->
+         <div class="compra-programada bg-white pt-0 pb-4">
             <div class="container "> 
-                  <div class="row">
+                  <div class="row align-items-center">
                     
-                     <div class="col-12 col-sm-6 mt-4 mb-4">
+                     <div class="col-12 col-sm-6 mt-4 mb-4 p-md-5 pt-0 pb-0 img-section">
                         <img src="assets/img/compra_programada.png" class="rounded img-fluid" alt="...">
                      </div>
      
-                     <div class="col-12 col-sm-6 text-center text-md-start">
-                        <h2 class="display-6 fs-2 text-center text-muted text-md-start text-uppercase">Crie sua <br><strong class="fw-bold text-danger h2">Compra Programada</strong></h2>
+                     <div class="col-12 col-sm-6 text-center text-md-start pt-3">
+                        <h2 class="display-6 fs-2 text-center text-muted text-md-start text-uppercase pt-4">Crie sua <br><strong class="fw-bold text-danger h2">Compra Programada</strong></h2>
                         <p class="fs-5 text-muted text-center text-md-start">Transforme o seu carrinho de compras em um plano recorrente!</p>
                         <p class="text-muted text-center text-md-start mt-3">Após escolher este plano, você montará seu kit com os produtos desejados e receberá sua
                            assinatura de acordo com a recorrência que você preferir!
                         </p>
-                        <button type="button" class="mb-5 btn btn-danger rounded-pill text-center text-uppercase text-md-start justify-content-center pl-3 pr-3 w-50"><i class="fas fa-shopping-cart text-white"></i>    Comece Agora</button>
+                        <button type="button" class="mt-4 mb-5 btn btn-danger rounded-pill text-center text-uppercase justify-content-center pl-3 pr-3 "><i class="fas fa-shopping-cart text-white"></i>    Comece Agora</button>
                      </div>
                   </div>
                </div>
        
          </div>
-         <div class=" bg-light pt-4 pb-5">
+
+         <!-- KITS PRODUTOS -->
+
+         <div class="kits bg-light pt-4 pb-5">
             
             <div class="container">
-               <!-- Products -->
                <div class="col-12">
-                  <h2 class="display-6 fs-2 text-center text-danger text-uppercase mt-3 mb-4">Conheça nossos Kits</h2>
+                  <h2 class="title-page display-6 fs-2 text-center text-danger text-uppercase mt-5 mb-4">Conheça nossos Kits</h2>
                </div>
-              
-               <div class="row">
-                  
+               
+               <div class="products pt-1 pb-md-0"> 
+                   
+   
+                  <div class="row">
+                     <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                           <a href="detalhes_produtos.html">
+
+                              <div class="card product text-center border-0">
+                                 <img src="assets/img/combo-1.png" class="img-fluid  p-4" alt="">
+                                    <div class="mt-3 mb-3 tex p-md-3">
+                                       <div class="flag fw-bold text-md-start">
+                                          <strong class="text-danger">10%</strong>
+                                          <span class="text-muted">| Frete Grátis</span>
+                                       </div>
+                                       <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                       
+                                       <div class="row align-items-center p-md-3">
+                                             <div class="col-md-6 p-0">
+                                             <div class="preco text-md-start">
+                                                   <div class="old-price text-muted">
+                                                      R$ 225,90
+                                                   </div>
+                                                   <div class="promo-price price fw-bold h3">
+                                                      R$ 225,90
+                                                   </div>
+                                                </div>
+                                             
+                                             </div>
+               
+                                             <div class="col-md-6 p-0">
+                                             <div class="bg-light">
+                                                   <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                      <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                      <div class="promo-price text-danger fs-6 p-1">
+                                                         R$ 159,90
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="card-body p-0">
+                                          <div class="prod-info text-md-start">
+                                             <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                             Ou R$ 181,49 á vista no boleto
+                                             </span>
+                                          </div>
+                                          <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                             <div class="text-center d-flex justify-content-center align-items-center">
+                                                <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                                <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                                <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                             </div>
+                                          </div>
+                                          <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </a>
+                          </div>
+                          <div class="swiper-slide">
+                           <a href="detalhes_produtos.html">
+
+                              <div class="card product text-center border-0">
+                                 <img src="assets/img/combo-2.png" class="img-fluid  p-4" alt="">
+                                    <div class="mt-3 mb-3 tex p-md-3">
+                                       <div class="flag fw-bold text-md-start">
+                                          <strong class="text-danger">10%</strong>
+                                          <span class="text-muted">| Frete Grátis</span>
+                                       </div>
+                                       <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                       
+                                       <div class="row align-items-center p-md-3">
+                                             <div class="col-md-6 p-0">
+                                             <div class="preco text-md-start">
+                                                   <div class="old-price text-muted">
+                                                      R$ 225,90
+                                                   </div>
+                                                   <div class="promo-price price fw-bold h3">
+                                                      R$ 225,90
+                                                   </div>
+                                                </div>
+                                             
+                                             </div>
+               
+                                             <div class="col-md-6 p-0">
+                                             <div class="bg-light">
+                                                   <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                      <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                      <div class="promo-price text-danger fs-6 p-1">
+                                                         R$ 159,90
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="card-body p-0">
+                                          <div class="prod-info text-md-start">
+                                             <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                             Ou R$ 181,49 á vista no boleto
+                                             </span>
+                                          </div>
+                                          <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                             <div class="text-center d-flex justify-content-center align-items-center">
+                                                <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                                <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                                <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                             </div>
+                                          </div>
+                                          <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </a>
+                          </div>
+                          <div class="swiper-slide">
+                           <a href="detalhes_produtos.html">
+
+                              <div class="card product text-center border-0">
+                                 <img src="assets/img/combo-2.png" class="img-fluid  p-4" alt="">
+                                    <div class="mt-3 mb-3 tex p-md-3">
+                                       <div class="flag fw-bold text-md-start">
+                                          <strong class="text-danger">10%</strong>
+                                          <span class="text-muted">| Frete Grátis</span>
+                                       </div>
+                                       <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                       
+                                       <div class="row align-items-center p-md-3">
+                                             <div class="col-md-6 p-0">
+                                             <div class="preco text-md-start">
+                                                   <div class="old-price text-muted">
+                                                      R$ 225,90
+                                                   </div>
+                                                   <div class="promo-price price fw-bold h3">
+                                                      R$ 225,90
+                                                   </div>
+                                                </div>
+                                             
+                                             </div>
+               
+                                             <div class="col-md-6 p-0">
+                                             <div class="bg-light">
+                                                   <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                      <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                      <div class="promo-price text-danger fs-6 p-1">
+                                                         R$ 159,90
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="card-body p-0">
+                                          <div class="prod-info text-md-start">
+                                             <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                             Ou R$ 181,49 á vista no boleto
+                                             </span>
+                                          </div>
+                                          <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                             <div class="text-center d-flex justify-content-center align-items-center">
+                                                <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                                <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                                <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                             </div>
+                                          </div>
+                                          <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </a>
+                          </div>
+                          <div class="swiper-slide">
+                           <a href="detalhes_produtos.html">
+
+                              <div class="card product text-center border-0">
+                                 <img src="assets/img/combo-3.png" class="img-fluid  p-4" alt="">
+                                    <div class="mt-3 mb-3 tex p-md-3">
+                                       <div class="flag fw-bold text-md-start">
+                                          <strong class="text-danger">10%</strong>
+                                          <span class="text-muted">| Frete Grátis</span>
+                                       </div>
+                                       <h2 class="fs-6 fw-bold text-secondary mt-2 mb-2 text-md-start">Água Perfumada 950ml</h2>
+                                       
+                                       <div class="row align-items-center p-md-3">
+                                             <div class="col-md-6 p-0">
+                                             <div class="preco text-md-start">
+                                                   <div class="old-price text-muted">
+                                                      R$ 225,90
+                                                   </div>
+                                                   <div class="promo-price price fw-bold h3">
+                                                      R$ 225,90
+                                                   </div>
+                                                </div>
+                                             
+                                             </div>
+               
+                                             <div class="col-md-6 p-0">
+                                             <div class="bg-light">
+                                                   <div class="this-subscribers d-flex align-items-center pt-1 fw-bold justify-content-center">
+                                                      <span class="text-muted text-uppercase p-1 text-muted">Para Assinantes</span>
+                                                      <div class="promo-price text-danger fs-6 p-1">
+                                                         R$ 159,90
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                       </div>
+                                       <div class="card-body p-0">
+                                          <div class="prod-info text-md-start">
+                                             <span class="boleto text-muted ">4x R$ 47,76 sem juros
+                                             Ou R$ 181,49 á vista no boleto
+                                             </span>
+                                          </div>
+                                          <div class="qtd mt-2 mb-1 d-block d-md-none">
+                                             <div class="text-center d-flex justify-content-center align-items-center">
+                                                <button class="smaller btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-minus"></i></button>
+                                                <input class="bg-light text-center rounded border-0  w-25 d-flex align-items-center justify-content-center" placeholder="2" type="text">
+                                                <button class="bigger btn btn-transparent text-muted rounded-circle border border-2 border-secondary p-1" type="button"><i class="fas fa-plus"></i></button>
+                                             </div>
+                                          </div>
+                                          <button type="button" class="btn w-100 btn-danger text-center rounded-pill m-auto text-uppercase text-md-start justify-content-center pl-4 pr-4 mt-3 d-block d-md-none"><i class="fas fa-shopping-cart text-white"></i>    Adicionar</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </a>
+                          </div>
+    
+                     
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                  </div>
+   
+                   <!-- Initialize Swiper -->
+   
+                   
+       
+                 
                </div>
-         </div>
+               
+            </div>
 
          </div>
+
       </main>
 
         
-    <footer>
+    <footer class="bg-white">
 
       <div class="container">
 
-          <div class="row pt-3">
-              <p class="text-muted small pb-2 text-muted">
-                 <strong> TEXTO SEO:</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-              </p>
-              <hr>
-          </div>
-
-          <div class="row">
-              <div class="col-6 col-sm-4">
-
-                  <div class="row">
-                     <div class="col-5">
-                        <div class="olfati">
-                           <h6 class=" fw-bolder text-danger text-uppercase ">Olfati</h6>
-                           <ul class="list-group m-0 p-0">   
-                             <li class="list-group-item border-0 p-0 pt-2"> <a href="" class="text-secondary text-decoration-none">Quem Somos</a></li>
-                           </ul>
-     
-                       </div>
-     
-                     </div>
-
-                     <div class="col-6">
-                        
-                       <div class="atendimento">
-                        <h6 class=" fw-bolder text-danger text-uppercase"> Atendimento </h6>
-                        <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">contato@olfati.com.br</a></li>
-                        <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">+55 (62) 3626-4003</a></li>
-                        <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">+55 (62) 99255-6565</a></li>
-                        <li class="list-group-item border-0 p-0 pt-2">
-                            <i class="text-muted fab fa-facebook-f"></i>
-                            <i class="text-muted fab fa-instagram"></i>
-                        </li>
-                    </div>
-                     </div>
-                  </div>
-                  
-              </div>
-
-              <div class="col-6 col-sm-2">
-                  <div class="loja">
-                      <h6 class=" fw-bolder text-danger text-uppercase">Loja</h6>
-
-                      <ul class="list-group m-0 p-0">
-                          <li class="list-group-item border-0 p-0 pt-2">
-                         
-                              <a href="" class="text-secondary text-decoration-none">Meus Pedidos</a>
-                          </li>
-                          <li class="list-group-item border-0 p-0 pt-2">
-                             <a href="" class="text-secondary text-decoration-none">Dúvidas Frequentes</a>
-                          </li>
-                          <li class="list-group-item border-0 p-0 pt-2">
-                               <a href="" class="text-secondary text-decoration-none">Termos de Uso</a>
-                          </li>
-                          <li class="list-group-item border-0 p-0 pt-2">
-                              <a href="" class="text-secondary text-decoration-none">Entrega</a>
-                         </li>
-                         <li class="list-group-item border-0 p-0 pt-2">
-                          <a href="" class="text-secondary text-decoration-none">Privacidade</a>
-                         </li>
-                         
-                      </ul> 
-                  </div>
-              </div>
-
-              <div class="col-6  col-sm-3">
-                  <div class="pagament w-75">
-                     <h6 class="fw-bolder text-danger text-uppercase">Pagamento</h6>
-                     
-                     <img src="assets/img/cards.png" alt="">
-                     
-                  </div>
-                  <div class="selo">
-                     <h6 class="fw-bolder text-danger text-uppercase">Selo</h6>
-                     <img src="assets/img/lets_encrypt.png" alt="">
-                     <!-- <svg class="bd-placeholder-img rounded" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-               </div>
-
-              </div>
-
-              <div class="col-6  col-sm-3">
-                  <div class="login-cad">
-                     <h6 class="fw-bolder text-danger text-uppercase">Newsletter</h6>
-                     <p class="text-muted small">Assine e receba as novidade e promoções!</p>
-                     <input class="col-8 rounded-pill border-0" type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
-                     <button type="button" class="btn btn-secondary rounded-pill">Cadastrar</button>
-                  </div>
-               </div>
-
-          </div>
+      <div class="row pt-5">
+      <p class="text-muted small pb-2 text-muted">
+      <strong> TEXTO SEO:</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+      </p>
 
       </div>
-      
-      <!-- <div class="row">
-          <li class="list-group-item border-0 p-0 pt-2">Rua 115, Setor Sul, Goiâna</p>
-      </div> -->
+
+      </div>
+      <hr class="text-muted">
+
+      <div class="container">
+
+      <div class="row">
+      <div class="col-6 col-sm-4">
+
+      <div class="row">
+      <div class="col-md-5">
+      <div class="olfati">
+      <h6 class=" fw-bolder text-danger text-uppercase ">Olfati</h6>
+      <ul class="list-group m-0 p-0">   
+      <li class="list-group-item border-0 p-0 pt-2"> <a href="" class="text-secondary text-decoration-none">Quem Somos</a></li>
+      </ul>
+
+      </div>
+
+      </div>
+
+      <div class="col-md-6">
+
+      <div class="atendimento">
+      <h6 class=" fw-bolder text-danger text-uppercase"> Atendimento </h6>
+      <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">contato@olfati.com.br</a></li>
+      <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">+55 (62) 3626-4003</a></li>
+      <li class="list-group-item border-0 p-0 pt-2"><a href="" class="text-secondary text-decoration-none">+55 (62) 99255-6565</a></li>
+      <li class="list-group-item border-0 p-0 pt-2">
+      <i class="text-muted fab fa-facebook-f"></i>
+      <i class="text-muted fab fa-instagram"></i>
+      </li>
+      </div>
+      </div>
+      </div>
+
+      </div>
+
+      <div class="col-6 col-sm-2">
+      <div class="loja">
+      <h6 class=" fw-bolder text-danger text-uppercase">Loja</h6>
+
+      <ul class="list-group m-0 p-0">
+      <li class="list-group-item border-0 p-0 pt-2">
+
+      <a href="" class="text-secondary text-decoration-none">Meus Pedidos</a>
+      </li>
+      <li class="list-group-item border-0 p-0 pt-2">
+      <a href="" class="text-secondary text-decoration-none">Dúvidas Frequentes</a>
+      </li>
+      <li class="list-group-item border-0 p-0 pt-2">
+         <a href="" class="text-secondary text-decoration-none">Termos de Uso</a>
+      </li>
+      <li class="list-group-item border-0 p-0 pt-2">
+      <a href="" class="text-secondary text-decoration-none">Entrega</a>
+      </li>
+      <li class="list-group-item border-0 p-0 pt-2">
+      <a href="" class="text-secondary text-decoration-none">Privacidade</a>
+      </li>
+
+      </ul> 
+      </div>
+      </div>
+
+      <div class="col-6  col-sm-3">
+      <div class="pagament w-75">
+      <h6 class="fw-bolder text-danger text-uppercase">Pagamento</h6>
+
+      <img src="assets/img/cards.png" alt="">
+
+      </div>
+      <div class="selo">
+      <h6 class="fw-bolder text-danger text-uppercase">Selo</h6>
+      <img src="assets/img/lets_encrypt.png" alt="">
+      <!-- <svg class="bd-placeholder-img rounded" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+      </div>
+
+      </div>
+
+      <div class="col-6  col-sm-3">
+      <div class="login-cad">
+      <h6 class="fw-bolder text-danger text-uppercase">Newsletter</h6>
+      <p class="text-muted small">Assine e receba as novidade e promoções!</p>
+      <input class="col-8 rounded-pill border-0" type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+      <button type="button" class="btn btn-secondary rounded-pill">Cadastrar</button>
+      </div>
+      </div>
+
+      </div>
+
+      </div>
+
+      <hr class="text-muted">
+
+      <div class="container">
+         <div class="row">
+            <p class="text-center text-muted pt-2">Rua 115, 1818, Setor Sul, Goiânia – GO, CEP 74085-328 Olfati Comércio e Serviços Ltda - CNPJ 28.042.855/0001-02 - IE 10.696.592-1
+            </p>
+            <img src="assets/img/business.png" class="p-5 pt-0 w-75 m-auto img-fluid"   style="max-width: 250px;"   alt="">
+         </div>
+      </div>
+     
   </footer>
+
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="assets/js/all.js"></script> 
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
@@ -691,23 +1044,31 @@
             },
             // when window width is >= 480px
             480: {
-               slidesPerView: 3,
-               spaceBetween: 30
+               slidesPerView: 2,
+               spaceBetween: 20
             },
             // when window width is >= 640px
             640: {
-               slidesPerView: 4,
-               spaceBetween: 40
+               slidesPerView: 3,
+               spaceBetween: 20
+            },
+            1024: {
+               slidesPerView: 4  ,
+               spaceBetween: 20
             }
          },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
-        },
+        }, navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+         },
+
       });
-      var swiper = new Swiper(".half-banner", {
+      var swiper = new Swiper(".central-banner", {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 20,
         breakpoints: {
             // when window width is >= 320px
             320: {
@@ -717,18 +1078,19 @@
             // when window width is >= 480px
             480: {
                slidesPerView: 3,
-               spaceBetween: 30
+               spaceBetween: 20
             },
             // when window width is >= 640px
             640: {
                slidesPerView: 4,
-               spaceBetween: 40
+               spaceBetween: 20
             }
          },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        
       });
     </script>
 
